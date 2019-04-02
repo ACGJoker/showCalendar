@@ -68,7 +68,7 @@ int main()
 		getchar();
 		while (m <= 0 || m > 12) {
 			printf("ERROR--Enter month in range of(1-12)!\n");
-			printf("Enter month in %d to display calendar(1-12):");
+			printf("Enter month in %d to display calendar(1-12):",y);
 			scanf("%d", &m);
 			getchar();
 		}
